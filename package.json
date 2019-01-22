@@ -1,0 +1,25 @@
+{
+  "name": "proj-2-assess",
+  "version": "1.0.0",
+  "description": "project 2 assessment",
+  "main": "injex.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tam-en/proj-2-assess.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tam-en/proj-2-assess/issues"
+  },
+  "homepage": "https://github.com/tam-en/proj-2-assess#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "express-ejs-layouts": "^2.5.0",
+    "pg": "^7.8.0",
+    "sequelize": "^4.42.0"
+  }
+}
