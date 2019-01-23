@@ -9,13 +9,12 @@
 				<h5><%=a.species_name %></h5> 
 			<% } %>
 			<p><em><%= a.scientific_name %></em></p>
-			<p><%= a.description %></p>
-		<% } %>
-
+			<%= a.description %>
+		
 		</div>
-		<div class="col s6"
-			<% if(a.image_url !== null){ %>
-				<img src="<%= a.image_url %>" >
+		<div class="col s6">
+			<% if(a.image_url){ %>
+				<img src="<%= a.image_url %>">
 			<% } else { %>
 				<img src="/mystery-critter.png">
 			<% } %>
