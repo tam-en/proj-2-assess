@@ -1,0 +1,37 @@
+<h3>enter new animal</h3>
+
+<div class="row">
+	<form method="POST" action="/favorites/new" >
+		<div class="row">
+			<div class="col s9 input-field">
+				<input type="text" name="species_name" placeholder="species name">
+			</div>
+			<div class="col s2">
+		<div class="col s9 input-field">
+				<input type="text" name="extinct" placeholder="true or false" value="false">
+			</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col s9 input-field">
+				<input type="text" name="scientific_name" placeholder="scientific name">
+			</div>
+		</div>
+		<div class="row">
+			<div class="col s12 input-field">
+				<input type="text" name="image_url" placeholder="image url goes here">
+			</div>
+		</div>
+		<div class="row">
+			<div class="col s12 input-text">
+				<input type="text" name="description" placeholder="describe animal">
+			</div>
+		</div>
+		<div class="row">
+			<div class="col s3">
+				<button class="waves-effect waves-light btn" type="submit" name="action">submit<i class="material-icons right">add</i>
+				</button>
+			</div>
+		</div>
+	</form>
+</div>

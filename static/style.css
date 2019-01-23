@@ -1,0 +1,58 @@
+body {
+	font-family: 'Lato', sans-serif;
+	margin: 0;
+}
+
+nav {
+	text-align: center;
+	background-color: #6C8346 !important;
+	min-height: 35px;
+	padding: 0 0 0 0;
+}
+
+nav a {
+	text-transform: uppercase;
+	font-size: 13px;
+	font-weight: 700;
+	letter-spacing: .05em;
+	color: darkblue;
+	text-decoration: none;
+	padding: 0 15px 0 15px;
+}
+
+nav a:hover {
+	color: gray !important;
+}
+
+nav a:active {
+	color: black;
+}
+
+form {
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 25px;
+}
+
+button {
+	background-color: #6C8346 !important;
+}
+
+hr {
+	border-color: #6C8346;
+}
+
+.animal-pic {
+	max-height: 300px;
+	max-width: 300px;
+}
+
+.extinct {
+	color: #601A1A;
+}
+
+
+.bold {
+	font-weight: 700;
+	text-transform: uppercase;
+}

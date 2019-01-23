@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>zookeeper</title>
+		<link rel="stylesheet" type="text/css" href="/style.css">
+		<link href="https://fonts.googleapis.com/css?family=Lato:400,400i,600,600i,700,700i" rel="stylesheet">
+		<!-- Compiled and minified CSS -->
+	    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+	    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	</head>
+
+	<body>
+		<nav>
+			<a href="/">home sweet home</a>
+			<a href="/favorites">favorite animals</a>
+			<a href="/favorites/new">add new animal</a>
+		</nav>
+
+		<div class="container">
+			<%- body %>
+		</div>
+
+	    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+	    <script>
+	    	document.addEventListener('DOMContentLoaded', function() {
+	    		console.log('dom loaded! wheeeee!');
+			});
+	    </script>
+	</body>
+
+</html>

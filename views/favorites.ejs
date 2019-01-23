@@ -1,0 +1,22 @@
+<h1>favorite animals</h1>
+
+<% animals.forEach(function(a) {%>
+	<div class="row">
+		<div class="col s6">
+				<h5><span class="extinct"><%=a.species_name %></span> (extinct)</h5> 
+			<% } else {%>
+				<h5><%=a.species_name %></h5> 
+			<% } %>
+			<p><em><%= a.scientific_name %></em></p>
+			<p><%= a.description %></p>
+		</div>
+		<div class="col s6"
+			<% if(a.image_url){%>
+				<img src="<%= a.image_url %>" >
+			<% } else { %>
+				<img src="/mystery-critter.png">
+			<% } %>
+		</div>	
+	</div>
+	<hr>
+<% }) %>

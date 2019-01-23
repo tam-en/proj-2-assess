@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/tam-en/proj-2-assess#readme",
   "dependencies": {
+    "ejs": "^2.6.1",
     "express": "^4.16.4",
     "express-ejs-layouts": "^2.5.0",
     "pg": "^7.8.0",
